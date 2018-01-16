@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "name": "ubehandlet_sak",
+  "namespace": "hfk.ephorte.saker",
+  "doc": "This is a sample Avro schema to get you started.  Editing is live live live!",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "docstrings are important!"
+    },
+    {
+      "name": "number1",
+      "type": "int"
+    },
+    {
+      "name": "number2",
+      "type": "float"
+    }
+  ]
+}

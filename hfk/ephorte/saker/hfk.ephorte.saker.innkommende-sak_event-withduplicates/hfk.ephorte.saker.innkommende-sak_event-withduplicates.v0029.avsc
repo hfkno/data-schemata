@@ -1,8 +1,8 @@
 {
   "type": "record",
   "name": "inkommende_sak",
-  "namespace": "com.landoop",
-  "doc": "This is a sample Avro schema to get you started. Just the top",
+  "namespace": "hfk.ephorte.saker",
+  "doc": "This is a sample Avro schema to get you started. Here we go!! Editing!!",
   "fields": [
     {
       "name": "name",

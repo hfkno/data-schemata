@@ -1,27 +1,30 @@
 {
   "type": "record",
   "name": "inkommende_sak",
-  "namespace": "hfk.ephorte.saker",
+  "namespace": "com.landoop",
   "doc": "This is a sample Avro schema to get you started. Here we go!! Editing!!",
   "fields": [
     {
-      "name": "name",
+      "name": "Name",
       "type": "string",
-      "doc": "Documentation of a sorts!"
+      "doc": "Documentation of a sorts!",
+      "default": "ukjent"
     },
     {
-      "name": "anotrher",
+      "name": "Anotrher",
       "type": "int",
       "doc": "Documentation",
       "default": 0
     },
     {
-      "name": "number1",
-      "type": "int"
+      "name": "Number1",
+      "type": "int",
+      "default": 0
     },
     {
-      "name": "number2",
-      "type": "float"
+      "name": "Number2",
+      "type": "float",
+      "default": "0.0"
     }
   ]
 }

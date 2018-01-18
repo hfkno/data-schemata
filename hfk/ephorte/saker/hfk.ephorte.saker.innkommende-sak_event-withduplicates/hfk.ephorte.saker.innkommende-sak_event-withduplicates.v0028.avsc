@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "inkommende_sak",
+  "namespace": "com.landoop",
+  "doc": "This is a sample Avro schema to get you started. Here we go!! Editing!!",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "Documentation of a sorts!"
+    },
+    {
+      "name": "Anotrher",
+      "type": "int",
+      "doc": "Documentation",
+      "default": 0
+    },
+    {
+      "name": "number1",
+      "type": "int"
+    },
+    {
+      "name": "number2",
+      "type": "float"
+    }
+  ]
+}

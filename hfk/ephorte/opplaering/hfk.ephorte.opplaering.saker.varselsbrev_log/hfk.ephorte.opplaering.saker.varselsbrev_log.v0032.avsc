@@ -1,16 +1,22 @@
 {
   "type": "record",
   "name": "varselsbrev",
-  "namespace": "hfk.epho-_rte.saker",
+  "namespace": "com.landoop",
   "doc": "This is a sample Avro schema to get you started. Please edit",
   "fields": [
     {
       "name": "name",
-      "type": "string"
+      "type": "string",
+      "aliases": [
+        "OldName",
+        "AnotherOldName"
+      ],
+      "sensitivity": "Personal"
     },
     {
       "name": "number1",
-      "type": "int"
+      "type": "int",
+      "doc" : "Documentation string here"
     },
     {
       "name": "number2",

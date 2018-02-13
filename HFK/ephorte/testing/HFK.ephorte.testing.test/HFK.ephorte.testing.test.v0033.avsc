@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "topicname",
+  "namespace": "no.hfk",
+  "doc": "This is a sample Avro schema to get you started. Please edit",
+  "fields": [
+    {
+      "name": "grame",
+      "type": "string",
+      "doc" : ""
+    },
+    {
+      "name": "number1",
+      "type": "int",
+      "doc" : ""
+    },
+    {
+      "name": "number2",
+      "type": "float",
+      "doc" : ""
+    }
+  ]
+}

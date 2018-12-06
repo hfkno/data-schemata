@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "topicname",
+  "namespace": "vlfk.utility.test",
+  "doc": "Testing the schema saving",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "doc" : ""
+    },
+    {
+      "name": "number1",
+      "type": "int",
+      "doc" : ""
+    },
+    {
+      "name": "number2",
+      "type": "float",
+      "doc" : ""
+    }
+  ]
+}

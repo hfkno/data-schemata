@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "PortalEmployeeMapping",
+  "namespace": "vlfk.ansatt.stilling",
+  "fields": [
+    {
+      "name": "ExternalEmployeeId",
+      "type": "string"
+    },
+    {
+      "name": "ExternalOuId",
+      "type": "string"
+    },
+    {
+      "name": "Title",
+      "type": "string"
+    },
+    {
+      "name": "Telephone",
+      "type": "string"
+    },
+    {
+      "name": "MobilePhone",
+      "type": "string"
+    },
+    {
+      "name": "EditMode",
+      "type": "boolean"
+    },
+    {
+      "name": "SearchMembership",
+      "type": "string"
+    }
+  ]
+}

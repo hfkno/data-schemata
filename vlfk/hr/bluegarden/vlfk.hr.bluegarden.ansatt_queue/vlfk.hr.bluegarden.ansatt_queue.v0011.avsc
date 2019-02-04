@@ -1,0 +1,104 @@
+{
+  "type": "record",
+  "name": "Employee",
+  "namespace": "vlfk.hr.bluegarden",
+  "fields": [
+    {
+      "name": "Id",
+      "type": "long"
+    },
+    {
+      "name": "FirstName",
+      "type": "string"
+    },
+    {
+      "name": "LastName",
+      "type": "string"
+    },
+    {
+      "name": "UserName",
+      "type": "string"
+    },
+    {
+      "name": "Email",
+      "type": "string"
+    },
+    {
+      "name": "Title",
+      "type": "string"
+    },
+    {
+      "name": "EmploymentCode",
+      "type": "string"
+    },
+    {
+      "name": "Telephone",
+      "type": "string"
+    },
+    {
+      "name": "MobilePhone",
+      "type": "string"
+    },
+    {
+      "name": "PrimaryGroup",
+      "type": "long"
+    },
+    {
+      "name": "EmploymentStart",
+      "type": "long"
+    },
+    {
+      "name": "Employer",
+      "type": "string"
+    },
+    {
+      "name": "LeaderUserName",
+      "type": "string"
+    },
+    {
+      "name": "EmployerId",
+      "type": "long"
+    },
+    {
+      "name": "PersonalIdNumber",
+      "type": "string"
+    },
+    {
+        "name": "Roles",
+        "type": {
+            "type": "array",
+            "items": {
+                "name": "EmployeeRole",
+                "type": "record",
+                "fields": [
+                        {
+                            "name": "Status",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Primary",
+                            "type": "boolean"
+                        },
+                        {
+                            "name": "GroupName",
+                            "type": "string"
+                        },
+                        {
+                            "name": "GroupId",
+                            "type": "long"
+                        },
+                        {
+                            "name": "Title",
+                            "type": "string"
+                        },
+                        {
+                            "name": "Code",
+                            "type": "string"
+                        }
+                    ]
+            }
+        }
+        
+    }
+  ]
+}
